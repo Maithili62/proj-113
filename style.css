@@ -1,0 +1,38 @@
+body
+{
+    background-image: "back.jpg";
+}
+
+h3{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.Take
+{
+    background-color: rgb(253, 253, 253);
+    color: black;
+    font-weight: bold;
+    height: 50px; 
+    width: 220px;
+}
+
+.Take:hover
+{
+background-color: rgb(0, 0, 0);
+color: white;
+}
+
+canvas
+{
+    animation-name: examples;
+    animation-iteration-count: infinite;
+    border-color: black;
+    border-style:ridge ;
+    border-width: 15px;
+}
+
+@keyframes examples {
+    from{box-shadow: 1px 1px 50px rgb(0, 0, 0);}
+}
